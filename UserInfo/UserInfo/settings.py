@@ -19,7 +19,7 @@ ZHIHU_HEADER = {
     'Host': 'www.zhihu.com',
     'Referer':'https://www.zhihu.com',
     'Connection':'keep-alive',
-    'x-udid':'ANCmupaVBA6PTnDHURJaEvzrjiBO47cKpvo=',
+    'x-udid':'在浏览器中获取，填写在此',
     'User-Agent':  'Mozilla/5.0 (Windows NT 10.0; rv:53.0) Gecko/20100101 Firefox/53.0'
 }
 ZHIHU_HEADER_API = {
@@ -31,13 +31,13 @@ ZHIHU_HEADER_API = {
 }
 # cookie,把浏览器里抓取到的cookie填写到这里
 ZHIHU_COOKIE = {
-    'q_c1': '9e7cbcdfb46741e2b739c1b36e945896|1533605922000|1533605922000',
-    'd_c0': 'ANCmupaVBA6PTnDHURJaEvzrjiBO47cKpvo=|1533605817',
-    '_xsrf': 'sLofnnlZ6etXhDtuaPLDj0WC0KeSflnW',
-    'capsion_ticket': '2|1:0|10:1534900981|14:capsion_ticket|44:Y2JhZjg3N2U2NWQ2NDBjYzhmNTVmZTlkNTFjZDZlMzg=|583fe93205424782e58cbbae981c1d1533eb1aaaab7bf0f9f0e398d7e7380a0a',
-    '_zap': '09d827af-0234-4142-9bfc-913f7515d537',
-    'tgw_l7_route': '200d77f3369d188920b797ddf09ec8d1',
-    'z_c0': '2|1:0|10:1534901014|4:z_c0|92:Mi4xNlR2UEF3QUFBQUFBMEthNmxwVUVEaVlBQUFCZ0FsVk5GZ2xxWEFCNHU3QmF5cDVpTnFVTTdMemdoaUN5cTZRUkpn|79d626823ca5465043d77a6552a209360dc65e128d71d8872a4c5673e97d628b'
+    'q_c1': '××××××××××××',
+    'd_c0': '×××××××××××××××××××',
+    '_xsrf': '×××××××××××××××××××××××',
+    'capsion_ticket': '××××××××××××××××××××８',
+    '_zap': '××××××××××××××××××××××,
+    'tgw_l7_route': '×××××××××××××××××××',
+    'z_c0': '××××××××××××××××××××××××××××'
 }
 
 
@@ -93,8 +93,8 @@ COOKIES_ENABLED = False
 #Configure your mysql
 MYSQL_HOST='localhost'
 MYSQL_USER='root'
-MYSQL_PASSWORD='123456'
-MYSQL_DB='zhihu'
+MYSQL_PASSWORD='password'
+MYSQL_DB='your DB_name'
 CHARSET='utf8'
 MYSQL_PORT=3306
 # Enable or disable spider middlewares
